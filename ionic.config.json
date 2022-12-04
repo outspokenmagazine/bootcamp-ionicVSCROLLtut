@@ -1,0 +1,7 @@
+{
+  "name": "ionicVSCROLLtut",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
