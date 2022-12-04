@@ -25,3 +25,17 @@
 #container a {
   text-decoration: none;
 }
+
+cdk-virtual-scroll-viewport {
+  height: calc(100% - 68px);
+  width: 100%;
+}
+
+.odd {
+  --ion-item-background: #e2e2e2;
+}
+
+.focus {
+  --ion-item-background: var(--ion-color-primary);
+  --ion-item-color: #fff;
+}
