@@ -1,6 +1,6 @@
 import { CdkVirtualScrollViewport } from '@angular/cdk/scrolling';
 import { Component, ViewChild } from '@angular/core';
-import { ToastController } from '@ionic/angular';
+import { IonicSafeString, ToastController } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
@@ -22,7 +22,7 @@ export class HomePage {
     }
   }
 
-  async selectItem(item: any) {
+  async selectItem(item: IonicSafeString) {
       const toast = await this.toastCtrl.create({
           message: item,
           duration: 2000
