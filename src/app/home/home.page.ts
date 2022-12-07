@@ -8,7 +8,7 @@ import { IonicSafeString, ToastController } from '@ionic/angular';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  items: string[]= [];
+  items!: string[];
   scrollTo = 120;
   @ViewChild(CdkVirtualScrollViewport)
   viewPort!: CdkVirtualScrollViewport;
